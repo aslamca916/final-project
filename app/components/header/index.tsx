@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Header = () => {
@@ -12,7 +13,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="flex items-center">
-                    <a href="/cart" className="text-gray-900 hover:text-gray-600">Cart</a>
+                    <Link href="/cart" className="text-gray-900 hover:text-gray-600">Cart</Link>
                 </div>
             </div>
         </div>
